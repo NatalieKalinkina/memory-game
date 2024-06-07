@@ -44,4 +44,4 @@
   - npm install
   - npm start
 
-### [Ссылка на деплой](https://memory-game-zygn.onrender.com/)
+### <a href="https://memory-game-zygn.onrender.com/" target="_blank">Ссылка на деплой</a>
