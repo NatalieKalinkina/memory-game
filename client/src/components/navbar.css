@@ -1,0 +1,58 @@
+.navbar {
+  width: 60%;
+  max-width: 600px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.navbar__button {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+
+.navbar__reset-button {
+  background-image: url(../images/reset_icon.svg);
+}
+
+.navbar__settings-button {
+  background-image: url(../images/settings_icon.svg);
+}
+
+.navbar__counter-line {
+  font-size: 18px;
+  color: black;
+}
+
+.navbar__timer {
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar__reset-button {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .navbar__reset-button {
+    width: 20px;
+    height: 20px;
+  }
+}

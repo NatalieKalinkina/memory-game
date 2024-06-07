@@ -1,0 +1,45 @@
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.memory {
+  width: 60%;
+  aspect-ratio: 1/1;
+  margin: 0 auto;
+  perspective: 1000px;
+  display: grid;
+  grid-template-columns:repeat(auto-fill, minmax(140px, 1fr));
+}
+
+.memory_four {
+  max-width: 600px;
+  gap: 2%;
+}
+
+.memory_six {
+  max-width: 940px;
+  gap: 4px;
+  grid-template-rows: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+.memory__card {
+  width: 130px;
+  height: 130px;
+  position: relative;
+  border-radius: 50%;
+  background-color: rgb(254, 193, 17);
+  padding: 2%;
+  box-sizing: border-box;
+  transform: rotateY(180deg);
+}
+
+.memory__card.flip {
+  transform: scale(1);
+  transition: transform 0.5s;
+  background-color: white;
+  border: 0;
+  border-radius: 10%;
+}
