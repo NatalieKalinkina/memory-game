@@ -28,7 +28,7 @@
 
 - игра по таймеру;
 - экран о проигрыше;
-- красивый дизайн, адаптив, анимации.
+- красивый дизайн, анимации.
 
  <img title="Экран настроек" src="https://iili.io/JCxdgXp.jpg" alt="Экран настроек">
 
@@ -44,4 +44,4 @@
   - npm install
   - npm start
 
-### [Ссылка на деплой](https://iceteamesto.nomoredomainsrocks.ru/)
+### [Ссылка на деплой](https://memory-game-zygn.onrender.com/)
